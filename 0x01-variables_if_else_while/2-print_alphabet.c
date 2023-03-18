@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	for(char c ='a';c<='c';c++)
+	for(c ='a';c<='c';c++)
 	{
 		putchar(c);
 	}
