@@ -6,12 +6,10 @@
  */
 int main(void)
 {
-
 	for(char c ='a';c<='c';c++)
 	{
 		putchar(c);
 	}
-	printf('\n');
+	putchar('\n');
 	return(0);
-
 }	
