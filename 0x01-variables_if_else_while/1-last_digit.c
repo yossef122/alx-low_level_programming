@@ -2,7 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /* get the last digit and check if greater or equal or less than 5 */
-
+/**
+* main - Determine if the last digit of a random number is
+* greater than or less than 5, or is zero..
+*
+* Return: 0 on success
+*/
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -12,7 +17,6 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
         printf("%s %d is %d and is ", last, n, n % 10);
-
 	if(n%10>5)
 	{
 	   	printf("greater than 5\n");
@@ -23,7 +27,7 @@ int main(void)
         }
 	else
 	{
- 		printf("lsee than 6 and not0\n");	
+ 		printf("less than 6 and not0\n");	
 	}
 	return (0);
 }
