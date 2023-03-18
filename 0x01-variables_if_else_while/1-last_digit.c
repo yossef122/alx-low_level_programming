@@ -1,14 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* get the last digit and check if greater or equal or less than 5 */
-/**
+/*
 * main - Determine if the last digit of a random number is
 * greater than or less than 5, or is zero..
 *
 * Return: 0 on success
 */
-/* betty style doc for function main goes there */
+
 int main(void)
 {
 	char last[]="Last digit of";
@@ -27,7 +26,8 @@ int main(void)
         }
 	else
 	{
- 		printf("less than 6 and not0\n");	
+ 		printf("less than 6 and not 0\n");	
 	}
 	return (0);
+
 }
